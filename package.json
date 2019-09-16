@@ -40,7 +40,7 @@
     "popper.js": "^1.14.6"
   },
   "directories": {
-    "doc": "docs"
+    "doc": "media"
   },
   "repository": {
     "type": "git",

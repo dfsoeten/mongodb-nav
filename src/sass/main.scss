@@ -1,14 +1,30 @@
-@import "~bootstrap/scss/bootstrap";
-
 @import "fonts";
 @import "variables";
 
-nav{
+@import "~bootstrap/scss/bootstrap";
+
+nav {
   li.nav-item {
     position: relative;
 
-    .dropdown-menu{ display:block; visibility: hidden; opacity: 0; left: 50%; transition: all 0.2s ease 0s; transform: translate(-50%, -2%);  }
+    .dropdown-menu{
+      display: block;
 
-    &:hover .dropdown-menu{ visibility: visible; opacity: 1; transform: translate(-50%, 3%); }
+      visibility: hidden;
+      opacity: 0;
+
+      left: 50%;
+
+      transition: opacity,visibility,transform 0.3s ease 0s;
+
+      transform: translate(-50%, -2%);
+    }
+
+    &:hover .dropdown-menu{
+      visibility: visible;
+      opacity: 1;
+
+      transform: translate(-50%, 3%);
+    }
   }
 }
