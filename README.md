@@ -6,6 +6,14 @@ MongoDB's original navbar | This repo's implementation
 :-------------------------:|:-------------------------:
 ![](media/mongo.gif)  |  ![](media/repo.gif)
 
+## Installation
+1. `git clone https://github.com/iamdann/mongodb-nav.git`
+2. `cd mongodb-nav`
+3. `npm i`
+4. `npm run start`
+
+A server should be running under [localhost:8080](http://localhost:8080/).
+
 ## Implementation 
 The navbar makes use of some [Bootstrap](https://getbootstrap.com) helper classes. Javascript is all completely vanilla 🎉.
 
