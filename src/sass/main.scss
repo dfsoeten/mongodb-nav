@@ -3,6 +3,12 @@
 @import "fonts";
 @import "variables";
 
-body {
-  background: #fff;
+nav{
+  li.nav-item {
+    position: relative;
+
+    .dropdown-menu{ display:block; visibility: hidden; opacity: 0; left: 50%; transition: all 0.2s ease 0s; transform: translate(-50%, -2%);  }
+
+    &:hover .dropdown-menu{ visibility: visible; opacity: 1; transform: translate(-50%, 3%); }
+  }
 }
